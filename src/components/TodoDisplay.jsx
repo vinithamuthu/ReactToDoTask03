@@ -17,7 +17,7 @@ const TodoDisplay = ({
 
   return (
     <div className="card w-full">
-      <div key={index} className="card-body">
+      <div key={index} className="card-body text-bg-info">
         <h3>
           <span className="text-primary">{item.title}</span>{" "}
           <span className="caption">#{item.id}</span>
